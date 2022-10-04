@@ -1,0 +1,73 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1text {
+    font-size: 36px;
+}
+
+.h2text {
+    font-size: 30px;
+}
+
+.h3text {
+    font-size: 25px;
+}
+
+.h3text {
+    font-size: 20px;
+}
+
+.h4text {
+    font-size: 17px;
+}
+
+.h5text {
+    font-size: 14px;
+}
+
+.h6text {
+    font-size: 12px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    color: #868686;
+}
+
+b {
+    font-weight: 700;
+}
+
+mark {
+    background-color: lightskyblue;
+    padding: 0.2em;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "\276F";
+    color: lightskyblue;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.imgvertical {
+    max-height: 50vh;
+}
+
+.imghorizontal {
+    max-width: 50vh;
+}
