@@ -64,10 +64,38 @@ li::before {
     margin-left: -1em;
 }
 
-.imgvertical {
-    max-height: 50vh;
+.pic__block img{
+    max-width: 30vh;
+    display: block;
+    transition: 0.3s;
 }
 
-.imghorizontal {
-    max-width: 50vh;
+.pic__block {
+    position: relative;
+    max-width: 30vh;
+    overflow: hidden;
+}
+
+.pic__description {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    color: white;
+    background-color: black;
+    width: auto;
+    padding: 0.5em;
+    opacity: 0;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.pic__block:hover .pic__description {
+    opacity: 100%;
+    transition: 0.2s;
+}
+
+.pic__block a:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
 }
