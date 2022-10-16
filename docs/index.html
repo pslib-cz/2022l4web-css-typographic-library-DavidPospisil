@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <title>Pospíšil.css</title>
+    <link rel="stylesheet" href="./download.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Sky.css</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>Headings</li>
-                <li>Text</li>
-                <li>Lists</li>
-                <li>Pictures</li>
-            </ul>
+        <nav class="header__nav">
+            <div class="header__nazev">
+              <a href="#">Sky.css</a>  
+            </div>
+            <div>
+                <ul class="header__seznam">
+                    <li><a href="#headings">Headings</a></li>
+                    <li><a href="#text">Text</a></li>
+                    <li><a href="#lists">Lists</a></li>
+                    <li><a href="#pictures">Pictures</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="wrapper" id="headings">
             <h2>Headings</h2>
             <div class="hexamples">
                 <h1 class="h1text">Heading
@@ -42,7 +52,7 @@
                 </h6>
             </div>
         </section>
-        <section>
+        <section class="wrapper" id="text">
             <h2>Types of texts</h2>
             <div class="textexamples">
                 <p><code>p</code>This is example of the text.<code>p</code></p>
@@ -52,7 +62,7 @@
                 <p><mark>This text is highlighted.</mark></p>
             </div>
         </section>
-        <section>
+        <section class="wrapper" id="lists">
             <h2>Lists</h2>
             <div class="listdescription">
                 <p>The <code>ul</code> tag defines an unordered list. Use the <code>ul</code> tag together with the <code>li</code> tag to create unordered lists.</p>
@@ -79,7 +89,7 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="wrapper" id="pictures">
             <h2>Pictures</h2>
             <div class="pic">
                 <figure class="pic__block">
