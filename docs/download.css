@@ -3,20 +3,20 @@ html {
 }
 
 .h1text {
-    font-size: 36px;
+    font-size: 55px;
     color: lightskyblue;
 }
 
 .h2text {
+    font-size: 45px;
+}
+
+.h3text {
     font-size: 30px;
 }
 
 .h3text {
     font-size: 25px;
-}
-
-.h3text {
-    font-size: 20px;
 }
 
 .h4text {

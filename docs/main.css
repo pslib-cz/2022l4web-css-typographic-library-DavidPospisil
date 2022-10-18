@@ -1,5 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
-    padding: 2em 80px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 50px;
+    max-width: 1200px;
 }
 
 header {
@@ -62,4 +72,10 @@ header {
 .header__nazev a:hover {
     color: yellow;
     transition: linear 0.1s;
+}
+
+code {
+    background-color: #eeebeb;
+    padding: 5px;
+    margin: 5px;
 }
