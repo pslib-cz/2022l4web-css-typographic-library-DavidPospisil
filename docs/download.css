@@ -75,6 +75,7 @@ li::before {
     position: relative;
     max-width: 30vh;
     overflow: hidden;
+    height: fit-content;
 }
 
 .pic__description {
