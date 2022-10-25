@@ -79,3 +79,26 @@ code {
     padding: 5px;
     margin: 5px;
 }
+
+.pic {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    background-color: lightskyblue;
+    padding-top: 2em;
+    color: white;
+}
+
+.author {
+    transition: linear 0.2s;
+    color: white;
+}
+
+.author:hover {
+    color: yellow;
+    transition: linear 0.2s;
+}
